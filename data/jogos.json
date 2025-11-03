@@ -1,0 +1,20 @@
+{
+  "jogos": [
+    {
+      "slug": "sp2",
+      "title": "Marvel’s Spider-Man 2",
+      "author": "Insomniac Games (PS5)",
+      "date": "2025-11-03",
+      "cover": "imagens/sp2.png",
+      "tags": ["ação", "história", "experiência"]
+    },
+    {
+      "slug": "dark-souls-1",
+      "title": "Dark Souls",
+      "author": "FromSoftware",
+      "date": "2025-11-03",
+      "cover": "imagens/ds1.png",
+      "tags": ["soulslike", "dificuldade", "mundo interconectado"]
+    }
+  ]
+}

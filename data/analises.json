@@ -1,0 +1,28 @@
+{
+  "analises": [
+    {
+      "slug": "a-metamorfose",
+      "title": "A Metamorfose",
+      "author": "Franz Kafka",
+      "date": "2025-10-30",
+      "cover": "imagens/inseto.png",
+      "tags": ["existencial", "família", "alienação"]
+    },
+    {
+      "slug": "o-alienista",
+      "title": "O Alienista",
+      "author": "Machado de Assis",
+      "date": "2025-11-01",
+      "cover": "imagens/alienista.png",
+      "tags": ["ironia", "poder", "normalidade"]
+    },
+    {
+      "slug": "a-morte-de-ivan-ilitch",
+      "title": "A Morte de Ivan Ilitch",
+      "author": "Liev Tolstói",
+      "date": "2025-11-02",
+      "cover": "imagens/ilitch.png",
+      "tags": ["morte", "sentido", "hipocrisia"]
+    }
+  ]
+}
