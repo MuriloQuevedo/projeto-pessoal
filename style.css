@@ -284,3 +284,43 @@ a {
   display: block;
   border-radius: 12px;
 }
+/* ===== Layout do header dentro das páginas de artigo ===== */
+.article > header{
+  display: grid;
+  grid-template-columns: 1fr auto; /* botão à esquerda, controles à direita */
+  align-items: center;
+  column-gap: 12px;
+  row-gap: 12px;                   /* espaço entre as linhas (cria respiro acima do h1) */
+  margin-bottom: 20px;             /* respiro abaixo do header */
+}
+
+.article > header .btn-secondary{
+  grid-column: 1;
+  justify-self: start;
+  margin: 0;                       /* zera margens que possam colar no h1 */
+}
+
+.article > header .controls{
+  grid-column: 2;
+  justify-self: end;               /* “Copiar link” vai pro canto direito */
+}
+
+.article > header h1{
+  grid-column: 1 / -1;             /* título ocupa toda a largura na linha de baixo */
+  grid-row: 2;
+  margin: 0;                       /* evita ficar “grudado” no botão */
+}
+
+.article > header .meta{
+  grid-column: 1 / -1;
+  grid-row: 3;
+  margin: 0;
+  opacity: .8;
+}
+
+@media (min-width: 640px){
+  .article > header{
+    row-gap: 16px;
+    margin-bottom: 28px;
+  }
+}
