@@ -3,33 +3,46 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Análises | Murilo P de Quevedo</title>
+  <title>Análises Literárias | Murilo P de Quevedo</title>
+
+  <!-- Open Graph / Twitter (padrão do site) -->
+  <meta property="og:site_name" content="Análises Literárias | Murilo P de Quevedo">
+  <meta property="og:title" content="Análises Literárias | Murilo P de Quevedo">
+  <meta property="og:description" content="Livros curtos, ideias densas — além de jogos, audiovisual e personagens. Análises diretas, sem enrolação.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="imagens/og-default.png">
+  <meta name="twitter:card" content="summary_large_image">
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Barra de progresso de leitura -->
+  <div class="read-progress" id="readProgress"></div>
+
   <header class="site-header">
     <div class="wrap header-inner">
-      <h1 class="brand"><a href="#/">Análises | Murilo P de Quevedo</a></h1>
+      <h1 class="brand"><a href="index.html#/">Análises Literárias | Murilo P de Quevedo</a></h1>
       <nav class="nav">
-        <a href="#/">Livros</a>
-        <a href="#/audiovisual">Audiovisual</a>
-        <a href="#/jogos">Jogos</a>
+        <a href="index.html#/audiovisual">Audiovisual</a>
+        <a href="index.html#/jogos">Jogos</a>
+        <a href="index.html#/">Livros</a>
+        <a href="index.html#/personagens">Personagens</a>
         <a href="sobre.html">Sobre</a>
       </nav>
     </div>
   </header>
 
-  <main class="wrap" id="app">
-    <noscript>Ative o JavaScript para ver o conteúdo.</noscript>
-  </main>
+  <main class="wrap" id="app" aria-live="polite"></main>
 
   <footer class="site-footer">
     <div class="wrap footer-inner">
       <p>© <span id="year"></span> Murilo P de Quevedo</p>
-      <button id="btn-topo" class="btn-secondary" title="Voltar ao topo">↑</button>
     </div>
   </footer>
 
   <script src="app.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

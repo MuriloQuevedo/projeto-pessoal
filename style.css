@@ -324,3 +324,28 @@ a {
     margin-bottom: 28px;
   }
 }
+
+blockquote{
+  margin: 12px 0 20px;
+  padding: 12px 16px;
+  border-left: 3px solid rgba(255,255,255,.25);
+  background: rgba(255,255,255,.04);
+  border-radius: 8px;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+/* Barra de progresso de leitura no topo */
+.read-progress{
+  position: fixed;
+  top: 0; left: 0;
+  height: 3px;
+  width: 0;
+  background: #fff;
+  opacity: .85;
+  z-index: 9999;
+  transition: width .12s linear;
+}
+@media (prefers-reduced-motion: reduce){
+  .read-progress{ transition: none; }
+}

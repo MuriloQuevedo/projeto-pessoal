@@ -1,0 +1,114 @@
+{
+  "personagens": [
+    {
+      "slug": "ciclope",
+      "title": "Ciclope: O olhar que nunca descansa",
+      "author": "X-Men",
+      "date": "2025-11-05",
+      "cover": "imagens/ciclope.png",
+      "tags": ["liderança", "controle", "dever"]
+    },
+    {
+      "slug": "iroh",
+      "title": "Iroh: As Lições do Homem Que Escolheu Não Ser Um Monstro",
+      "author": "Avatar: A Lenda de Aang",
+      "date": "2025-11-05",
+      "cover": "imagens/iroh.png",
+      "tags": ["sabedoria", "redenção", "empatia"]
+    },
+    {
+      "slug": "levi-ackerman",
+      "title": "Levi Ackerman: O Peso da Decisão e a Tragédia da Consciência Racional",
+      "author": "Attack on Titan",
+      "date": "2025-11-07",
+      "cover": "imagens/levi.png",
+      "tags": ["liderança", "tragédia", "razão", "trauma"]
+  },
+  {
+     "slug": "eren-yeager",
+    "title": "Eren Yeager: A Distorção do Herói e o Autoengano do Sacrifício",
+    "author": "Attack on Titan",
+    "date": "2025-11-07",
+    "cover": "imagens/eren.png",
+    "tags": ["liberdade", "dissonancia", "trauma", "determinismo"]
+  },
+    {
+      "slug": "magneto",
+      "title": "Magneto: O Ódio que Nasce da Memória",
+      "author": "X-Men",
+      "date": "2025-11-05",
+      "cover": "imagens/magneto.png",
+      "tags": ["trauma", "ideologia", "sobrevivência"]
+    },
+    {
+      "slug": "madara-uchiha",
+      "title": "Madara Uchiha: O Controle como Maldição e a Obsessão pelo Mundo Ideal",
+      "author": "Naruto",
+      "date": "2025-11-05",
+      "cover": "imagens/madara.png",
+      "tags": ["poder", "utopia", "obsessão"]
+    },
+    {
+      "slug": "nagato-pain",
+      "title": "Nagato (Pain): A Dor como Caminho para o Sentido",
+      "author": "Naruto Shippuden",
+      "date": "2025-11-05",
+      "cover": "imagens/pain.png",
+      "tags": ["dor", "sentido", "guerra"]
+    },
+    {
+      "slug": "korra",
+      "title": "Korra e a Maldição da Expectativa",
+      "author": "A Lenda de Korra",
+      "date": "2025-11-07",
+      "cover": "imagens/korra.png",
+      "tags": [
+        "avatar",
+        "identidade",
+        "vulnerabilidade",
+        "autenticidade",
+        "favorita"
+      ]
+    },
+    {
+      "slug": "satoru-gojo",
+      "title": "Satoru Gojo: A Solidão do Infinito",
+      "author": "Jujutsu Kaisen",
+      "date": "2025-11-05",
+      "cover": "imagens/gojo.png",
+      "tags": ["solidão", "poder", "responsabilidade"]
+    },
+    {
+      "slug": "suguru-geto",
+      "title": "Suguru Geto: O Nojo como Ruptura com a Humanidade",
+      "author": "Jujutsu Kaisen",
+      "date": "2025-11-05",
+      "cover": "imagens/geto.png",
+      "tags": ["niilismo", "ruptura", "ética"]
+    },
+    {
+      "slug": "ultron",
+      "title": "Ultron: O Reflexo que Nos Condena",
+      "author": "Vingadores / Marvel",
+      "date": "2025-11-05",
+      "cover": "imagens/ultron.png",
+      "tags": ["espelho", "ia", "extinção"]
+    },
+    {
+      "slug": "zuko",
+      "title": "Zuko: O Apego a Quem Nos Machuca",
+      "author": "Avatar: A Lenda de Aang",
+      "date": "2025-11-05",
+      "cover": "imagens/zuko.png",
+      "tags": ["apego", "identidade", "redenção"]
+    },
+    {
+      "slug": "yuji-itadori",
+      "title": "Yuji Itadori: O Peso de Viver para Morrer",
+      "author": "Jujutsu Kaisen",
+      "date": "2025-11-07",
+     "cover": "imagens/yuji.png",
+      "tags": ["culpa-do-sobrevivente", "empatia", "depressao-funcional", "irmandade"]
+    }
+  ]
+}
