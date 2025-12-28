@@ -15,6 +15,22 @@
       "date": "2025-11-03",
       "cover": "imagens/ds1.png",
       "tags": ["soulslike", "dificuldade", "mundo interconectado"]
+    },
+    {
+      "slug": "clair-obscur-expedition-33",
+      "title": "Clair Obscur: Expedition 33",
+      "author": "Sandfall Interactive",
+      "date": "2025-11-03",
+      "cover": "imagens/clair-obscur.png",
+      "tags": ["rpg", "luto", "existencial", "narrativa"]
+    },
+    {
+      "slug": "the-quarry",
+      "title": "The Quarry",
+      "author": "Supermassive Games",
+      "date": "2025-12-28",
+      "cover": "imagens/the-quarry.png",
+      "tags": ["terror", "narrativa", "escolhas"]
     }
   ]
 }
