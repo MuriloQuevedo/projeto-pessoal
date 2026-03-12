@@ -1,0 +1,12 @@
+{
+  "audiovisual": [
+    {
+      "slug": "a-corrida-dos-100-metros",
+      "title": "A Corrida dos 100 Metros",
+      "author": "Animação",
+      "date": "2026-03-12",
+      "cover": "imagens/100-metros.png",
+      "tags": ["esporte", "psicológico", "existencial", "drama"]
+    }
+  ]
+}

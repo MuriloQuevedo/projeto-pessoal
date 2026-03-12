@@ -17,7 +17,7 @@ const App = (function () {
 
   async function loadData() {
     BOOKS = await fetchJSON("data/analises.json", "analises");
-    AV = await fetchJSON("data/av.json", "audiovisual"); // ajuste se o nome do arquivo for outro
+    AV = await fetchJSON("data/audiovisual.json", "audiovisual"); // ajuste se o nome do arquivo for outro
     GAMES = await fetchJSON("data/jogos.json", "jogos"); // ajuste para jogos.json se for o seu caso
     CHARS = await fetchJSON("data/personagens.json", "personagens");
   }
