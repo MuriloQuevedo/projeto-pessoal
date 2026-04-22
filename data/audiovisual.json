@@ -7,6 +7,14 @@
       "date": "2026-03-12",
       "cover": "imagens/100-metros.png",
       "tags": ["esporte", "psicológico", "existencial", "drama"]
+    },
+    {
+      "slug": "perfect-blue",
+      "title": "Perfect Blue",
+      "author": "Satoshi Kon",
+      "date": "2026-04-21",
+      "cover": "imagens/perfect-blue.png",
+      "tags": ["anime", "thriller psicológico", "identidade", "indústria"]
     }
   ]
 }
