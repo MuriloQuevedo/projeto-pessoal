@@ -117,7 +117,7 @@ const App = (function () {
       <section class="hero" style="border:none; margin-top:40px;">
         <h2>Acervo de Análises</h2>
         <p style="font-size:1.1rem; color:var(--muted); max-width:700px;">
-          Um arquivo de ideias densas e ensaios sobre literatura, audiovisual, design de jogos e personagens. Reflexões diretas focadas na obra, sem enrolação.
+          Um arquivo de ideias e ensaios sobre literatura, audiovisual, jogos e personagens. Reflexões diretas focadas na obra.
         </p>
       </section>
 
