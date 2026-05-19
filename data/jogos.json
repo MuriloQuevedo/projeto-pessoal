@@ -31,6 +31,14 @@
       "date": "2025-12-28",
       "cover": "imagens/the-quarry.png",
       "tags": ["terror", "narrativa", "escolhas"]
+    },
+    {
+      "slug": "resident-evil-9",
+      "title": "Resident Evil Requiem",
+      "author": "Capcom",
+      "date": "2026-05-19",
+      "cover": "imagens/re9.png",
+      "tags": ["survival horror", "ação", "decepção", "fanservice"]
     }
   ]
 }
