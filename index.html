@@ -15,12 +15,15 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Acessibilidade: skip para usuários de teclado/leitor de tela -->
+  <a class="skip-nav" href="#app">Pular para o conteúdo</a>
+
   <div class="read-progress" id="readProgress"></div>
 
   <header class="site-header">
     <div class="wrap header-inner">
       <h1 class="brand"><a href="index.html#/">Murilo Quevedo</a></h1>
-      <nav class="nav">
+      <nav class="nav" aria-label="Navegação principal">
         <a href="index.html#/livros">Livros</a>
         <a href="index.html#/audiovisual">Audiovisual</a>
         <a href="index.html#/jogos">Jogos</a>
@@ -35,7 +38,7 @@
   <footer class="site-footer">
     <div class="wrap footer-inner">
       <p>© <span id="year"></span> Murilo Prestes de Quevedo</p>
-      <button id="btn-topo" class="btn-secondary small">Voltar ao topo ↑</button>
+      <button id="btn-topo" class="btn-secondary small" aria-label="Voltar ao topo da página">Voltar ao topo ↑</button>
     </div>
   </footer>
 
