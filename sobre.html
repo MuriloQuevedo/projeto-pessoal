@@ -1,67 +1,144 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sobre — Análises Literárias | Murilo P de Quevedo</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sobre — Murilo Quevedo</title>
+    <meta
+      name="description"
+      content="Sobre o arquivo pessoal de Murilo Prestes de Quevedo: análises de livros, cinema, jogos e personagens."
+    />
+    <meta name="theme-color" content="#14120e" />
+    <meta name="color-scheme" content="dark" />
 
-  <!-- Open Graph / Twitter -->
-  <meta property="og:site_name" content="Análises Literárias | Murilo P de Quevedo">
-  <meta property="og:title" content="Sobre — Análises Literárias | Murilo P de Quevedo">
-  <meta property="og:description" content="A ideia surgiu numa madrugada: criar um lugar para registrar análises curtas de livros, jogos, audiovisual e personagens.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="imagens/og-default.png">
-  <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="Murilo Quevedo" />
+    <meta property="og:title" content="Sobre — Murilo Quevedo" />
+    <meta
+      property="og:description"
+      content="Sobre o arquivo pessoal de Murilo Prestes de Quevedo."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="imagens/og-default.png" />
+    <meta name="twitter:card" content="summary_large_image" />
 
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="wrap header-inner">
-      <h1 class="brand"><a href="index.html#/">Análises Literárias | Murilo P de Quevedo</a></h1>
-      <nav class="nav">
-        <a href="index.html#/audiovisual">Audiovisual</a>
-        <a href="index.html#/jogos">Jogos</a>
-        <a href="index.html#/">Livros</a>
-        <a href="index.html#/personagens">Personagens</a>
-        <a href="sobre.html" aria-current="page">Sobre</a>
-      </nav>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA2NCA2NCc+PHJlY3Qgd2lkdGg9JzY0JyBoZWlnaHQ9JzY0JyBmaWxsPScjMTQxMjBlJy8+PHRleHQgeD0nMzMnIHk9JzQ2JyBmb250LWZhbWlseT0nR2VvcmdpYSxzZXJpZicgZm9udC1zaXplPSczOCcgZm9udC1zdHlsZT0naXRhbGljJyBmb250LXdlaWdodD0nNzAwJyBmaWxsPScjZDJhZjY2JyB0ZXh0LWFuY2hvcj0nbWlkZGxlJz5NPC90ZXh0Pjwvc3ZnPgo="
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500;1,9..144,600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-nav" href="#conteudo-sobre">Pular para o conteúdo</a>
+
+    <div class="ember-line" id="readProgress" aria-hidden="true">
+      <span class="ember-tip"></span>
     </div>
-  </header>
 
-  <main class="wrap article">
-    <header>
-      <a class="btn-secondary" href="index.html#/">&larr; Voltar</a>
-      <h1>Sobre o projeto</h1>
-      <p class="meta">
-        Nietzsche valorizava o ócio fértil (<em>Muße</em>): criar pede a pausa, o “não fazer”.
-        Em uma madrugada silenciosa, tive essa ideia e criei coragem para realizar este projeto.
-      </p>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="index.html#/">
+          <span class="brand-name">Murilo Quevedo</span>
+          <span class="brand-tag">Gabinete de Análises</span>
+        </a>
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-expanded="false"
+          aria-controls="siteNav"
+        >
+          <span class="nav-toggle-bar"></span
+          ><span class="nav-toggle-bar"></span
+          ><span class="nav-toggle-bar"></span>
+          <span class="sr-only">Abrir navegação</span>
+        </button>
+        <nav class="nav" id="siteNav" aria-label="Navegação principal">
+          <a href="index.html#/livros">Livros</a>
+          <a href="index.html#/audiovisual">Audiovisual</a>
+          <a href="index.html#/jogos">Jogos</a>
+          <a href="index.html#/personagens">Personagens</a>
+          <a href="sobre.html">Sobre</a>
+        </nav>
+      </div>
     </header>
 
-    <section class="content">
-      <h2>Como funciona</h2>
-      <p>
-        Leio, assisto e jogo. Assim que termino e tenho tempo, eu escrevo. Não é um projeto para
-        convencer ninguém a ler, jogar ou assistir. Se acontecer, melhor ainda, mas o objetivo é
-        registrar e guardar tudo isso em um só lugar, mesmo que ninguém nunca leia. Estou começando a
-        postar agora, então pode demorar para ter bastante coisa.
-      </p>
-      <ol>
-        <li><strong>Escolha:</strong> livros, contos, HQs e mangás, jogos, filmes etc.</li>
-        <li><strong>Propósito:</strong> apenas deixar tudo registrado.</li>
-      </ol>
-    </section>
-  </main>
+    <main class="wrap" id="conteudo-sobre">
+      <section class="sala-header">
+        <p class="kicker">Sobre</p>
+        <h1 class="sala-title">O arquivista</h1>
+        <p class="sala-lede">
+          Um lugar para guardar o que as obras deixam para trás.
+        </p>
+      </section>
 
-  <footer class="site-footer">
-    <div class="wrap footer-inner">
-      <p>© <span id="year"></span> Murilo P de Quevedo</p>
-    </div>
-  </footer>
+      <div
+        class="content"
+        style="max-width: var(--w-read); margin: 40px 0 60px"
+      >
+        <p>
+          Este é um arquivo pessoal, um lugar para guardar o que sobra depois de
+          terminar um livro, um filme, um jogo ou uma temporada inteira: a
+          sensação de que aquela obra não te soltou por completo.
+        </p>
+        <p>
+          Murilo Prestes de Quevedo escreve estas análises com um critério
+          simples: só publicar o que ainda valeria a pena reler daqui a um ano.
+          Não há notas, nem estrelas, o objetivo é outro: entender por que
+          certas histórias continuam trabalhando dentro da gente muito depois do
+          final.
+        </p>
+        <h2>Como o acervo está organizado</h2>
+        <p>
+          O acervo é dividido em quatro salas. O Herbário guarda livros, ideias
+          densas, prensadas entre páginas. A Lanterna Mágica reúne cinema e
+          audiovisual. O Gabinete de Autômatos cataloga jogos. E a Galeria de
+          Retratos expõe os personagens bem escritos o bastante para parecer que
+          existiram antes de serem inventados.
+        </p>
+        <p>
+          Cada peça é escrita, revisada e catalogada à mão, sem calendário fixo.
+          O acervo cresce devagar... mas cresce.
+        </p>
+        <blockquote>
+          Se uma destas análises te fizer pensar em algo que eu deveria ter dito
+          e não disse, é provável que eu já esteja pensando nisso também.
+        </blockquote>
+      </div>
+    </main>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p class="footer-copy">
+          <button
+            class="seal-btn"
+            id="sealBtn"
+            aria-expanded="false"
+            aria-label="Ver nota do arquivista"
+          ></button>
+          <span>© <span id="year"></span> Murilo Prestes de Quevedo</span>
+          <span class="colophon" id="colophon" hidden
+            >Este acervo é catalogado à mão, peça por peça. Nada aqui foi feito
+            para ser lido depressa.</span
+          >
+        </p>
+        <button
+          id="btn-topo"
+          class="btn-secondary small"
+          aria-label="Voltar ao topo da página"
+        >
+          Voltar ao topo ↑
+        </button>
+      </div>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
 </html>

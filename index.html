@@ -1,50 +1,113 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Murilo Quevedo | Análises e Ideias</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Murilo Quevedo — Gabinete de Análises</title>
+    <meta
+      name="description"
+      content="Ensaios sobre livros, cinema, jogos e os personagens que insistem em ficar. Um arquivo para obras que continuam sendo lidas depois de fechadas."
+    />
+    <meta name="theme-color" content="#14120e" />
+    <meta name="color-scheme" content="dark" />
 
-  <meta property="og:site_name" content="Murilo Quevedo">
-  <meta property="og:title" content="Murilo Quevedo | Análises">
-  <meta property="og:description" content="Livros curtos, ideias densas — além de jogos, audiovisual e personagens.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="imagens/og-default.png">
-  <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="Murilo Quevedo" />
+    <meta property="og:title" content="Murilo Quevedo — Gabinete de Análises" />
+    <meta
+      property="og:description"
+      content="Ensaios sobre livros, cinema, jogos e os personagens que insistem em ficar."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="imagens/og-default.png" />
+    <meta name="twitter:card" content="summary_large_image" />
 
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <!-- Acessibilidade: skip para usuários de teclado/leitor de tela -->
-  <a class="skip-nav" href="#app">Pular para o conteúdo</a>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA2NCA2NCc+PHJlY3Qgd2lkdGg9JzY0JyBoZWlnaHQ9JzY0JyBmaWxsPScjMTQxMjBlJy8+PHRleHQgeD0nMzMnIHk9JzQ2JyBmb250LWZhbWlseT0nR2VvcmdpYSxzZXJpZicgZm9udC1zaXplPSczOCcgZm9udC1zdHlsZT0naXRhbGljJyBmb250LXdlaWdodD0nNzAwJyBmaWxsPScjZDJhZjY2JyB0ZXh0LWFuY2hvcj0nbWlkZGxlJz5NPC90ZXh0Pjwvc3ZnPgo="
+    />
 
-  <div class="read-progress" id="readProgress"></div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500;1,9..144,600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
 
-  <header class="site-header">
-    <div class="wrap header-inner">
-      <h1 class="brand"><a href="index.html#/">Murilo Quevedo</a></h1>
-      <nav class="nav" aria-label="Navegação principal">
-        <a href="index.html#/livros">Livros</a>
-        <a href="index.html#/audiovisual">Audiovisual</a>
-        <a href="index.html#/jogos">Jogos</a>
-        <a href="index.html#/personagens">Personagens</a>
-        <a href="sobre.html">Sobre</a>
-      </nav>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-nav" href="#app">Pular para o conteúdo</a>
+
+    <div class="ember-line" id="readProgress" aria-hidden="true">
+      <span class="ember-tip"></span>
     </div>
-  </header>
 
-  <main class="wrap" id="app" aria-live="polite"></main>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="index.html#/">
+          <span class="brand-name">Murilo Quevedo</span>
+          <span class="brand-tag">Gabinete de Análises</span>
+        </a>
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-expanded="false"
+          aria-controls="siteNav"
+        >
+          <span class="nav-toggle-bar"></span
+          ><span class="nav-toggle-bar"></span
+          ><span class="nav-toggle-bar"></span>
+          <span class="sr-only">Abrir navegação</span>
+        </button>
+        <nav class="nav" id="siteNav" aria-label="Navegação principal">
+          <a href="index.html#/livros">Livros</a>
+          <a href="index.html#/audiovisual">Audiovisual</a>
+          <a href="index.html#/jogos">Jogos</a>
+          <a href="index.html#/personagens">Personagens</a>
+          <a href="sobre.html">Sobre</a>
+        </nav>
+      </div>
+    </header>
 
-  <footer class="site-footer">
-    <div class="wrap footer-inner">
-      <p>© <span id="year"></span> Murilo Prestes de Quevedo</p>
-      <button id="btn-topo" class="btn-secondary small" aria-label="Voltar ao topo da página">Voltar ao topo ↑</button>
-    </div>
-  </footer>
+    <main class="wrap" id="app" aria-live="polite">
+      <p class="loading-note">Abrindo o acervo…</p>
+    </main>
 
-  <script src="app.js"></script>
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
+    <noscript>
+      <div class="wrap">
+        <p class="noscript-note">
+          Este acervo depende de JavaScript para catalogar e exibir as peças.
+          Ative o JavaScript no navegador para explorar as análises.
+        </p>
+      </div>
+    </noscript>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p class="footer-copy">
+          <button
+            class="seal-btn"
+            id="sealBtn"
+            aria-expanded="false"
+            aria-label="Ver nota do arquivista"
+          ></button>
+          <span>© <span id="year"></span> Murilo Prestes de Quevedo</span>
+          <span class="colophon" id="colophon" hidden
+            >Este acervo é catalogado à mão, peça por peça. Nada aqui foi feito
+            para ser lido depressa.</span
+          >
+        </p>
+        <button
+          id="btn-topo"
+          class="btn-secondary small"
+          aria-label="Voltar ao topo da página"
+        >
+          Voltar ao topo ↑
+        </button>
+      </div>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
 </html>
